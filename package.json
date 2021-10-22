@@ -1,6 +1,9 @@
 {
   "name": "rocketseat-nlw-heat-impulse-web",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "repository": "https://github.com/jobsonita/rocketseat-nlw-heat-impulse-web.git",
+  "author": "Jobson Gilberto Barros Amorim <jobsonita@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
