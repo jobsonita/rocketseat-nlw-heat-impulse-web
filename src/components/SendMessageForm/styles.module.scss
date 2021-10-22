@@ -1,0 +1,130 @@
+.sendMessageFormWrapper {
+  position: relative;
+  align-self: center;
+
+  background: #1b1b1f;
+  padding: 24px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.signOutButton {
+  position: absolute;
+  left: 24px;
+  top: 24px;
+
+  background: transparent;
+  border: 0;
+  color: #c4c4cc;
+  cursor: pointer;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+}
+
+.userInformation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .userImage {
+    background: linear-gradient(100deg, #ff008e 0%, #ffcd1e 100%);
+    border-radius: 50%;
+    line-height: 0;
+    padding: 3px;
+
+    img {
+      height: 94px;
+      width: 94px;
+
+      border-radius: 50%;
+      border: 6px solid #121214;
+    }
+  }
+
+  .userName {
+    margin-top: 16px;
+
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .userGithub {
+    margin-top: 8px;
+
+    display: flex;
+    align-items: center;
+
+    color: #c4c4cc;
+
+    svg {
+      margin-right: 8px;
+    }
+  }
+}
+
+.sendMessageForm {
+  margin-top: 48px;
+
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+
+  background: #202024;
+
+  label {
+    background: #29292e;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 24px;
+    text-align: left;
+  }
+
+  textarea {
+    height: 160px;
+
+    background: transparent;
+    border: 0;
+    color: #e1e1e6;
+    font-size: 16px;
+    padding: 24px;
+    resize: none;
+    line-height: 24px;
+    
+    &:focus {
+      outline: 0;
+    }
+
+    &::placeholder {
+      color: #8d8d99;
+    }
+  }
+
+  button {
+    align-self: flex-end;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #ff008e;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 24px;
+    padding: 0 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
+}
