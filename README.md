@@ -82,4 +82,4 @@ With the server up, open http://localhost:3000 on one or more browsers, log in t
 [![Author: jobsonita](https://avatars.githubusercontent.com/u/1463583?s=48&v=4)](https://github.com/jobsonita/jobsonita) | [Jobson Gilberto](https://github.com/jobsonita/jobsonita)
 -|-
 
-[![License](https://img.shields.io/github/license/jobsonita/rocketseat-nlw-heat-impulse-node)](LICENSE)
+[![License](https://img.shields.io/github/license/jobsonita/rocketseat-nlw-heat-impulse-web)](LICENSE)
